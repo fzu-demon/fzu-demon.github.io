@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019 | 烂人笔记</title>
+  <title>烂人笔记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010110210">
+<meta property="og:type" content="article">
 <meta property="og:title" content="烂人笔记">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/11/26/模块和包/index.html">
 <meta property="og:site_name" content="烂人笔记">
+<meta property="og:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010110210">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-11-26T15:46:33.462Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="烂人笔记">
+<meta name="twitter:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010110210">
   
     <link rel="alternative" href="/atom.xml" title="烂人笔记" type="application/atom+xml">
   
@@ -140,235 +144,160 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-模块和包" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br></pre></td><td class="code"><pre><span class="line">编写好的一个python文件 可以有两种途径：</span><br><span class="line">	一：脚本，一个文件就是整个程序，用来被执行</span><br><span class="line">	二 ：模块，文件中存放着一堆功能，用来被导入使用</span><br><span class="line">	<span class="comment">#python为我们内置了全局变量__name__，</span></span><br><span class="line">	    当文件被当做脚本执行时：__name__ 等于<span class="string">'__main__'</span></span><br><span class="line">	    当文件被当做模块导入时：__name__等于模块名</span><br><span class="line">	<span class="comment">#作用：用来控制.py文件在不同的应用场景下执行不同的逻辑</span></span><br><span class="line">	    <span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line"></span><br><span class="line">模块简介及创建</span><br><span class="line">	<span class="comment"># 模块（module）</span></span><br><span class="line">	<span class="comment"># 模块化，模块化指将一个完整的程序分解为一个一个小的模块</span></span><br><span class="line">	<span class="comment">#   通过将模块组合，来搭建出一个完整的程序</span></span><br><span class="line">	<span class="comment"># 不采用模块化，统一将所有的代码编写到一个文件中</span></span><br><span class="line">	<span class="comment"># 采用模块化，将程序分别编写到多个文件中</span></span><br><span class="line">	<span class="comment">#   模块化的有点：</span></span><br><span class="line">	<span class="comment">#       ① 方便开发</span></span><br><span class="line">	<span class="comment">#       ② 方便维护</span></span><br><span class="line">	<span class="comment">#       ③ 模块可以复用！</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># 在Python中一个py文件就是一个模块，要想创建模块，实际上就是创建一个python文件</span></span><br><span class="line">	<span class="comment"># 注意：模块名要符号标识符的规范</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># 在一个模块中引入外部模块</span></span><br><span class="line">	<span class="comment"># ① import 模块名 （模块名，就是python文件的名字，注意不要py）</span></span><br><span class="line">	<span class="comment"># ② import 模块名 as 模块别名</span></span><br><span class="line">	<span class="comment">#   - 可以引入同一个模块多次，但是模块的实例只会创建一个</span></span><br><span class="line">	<span class="comment">#   - import可以在程序的任意位置调用，但是一般情况下，import语句都会统一写在程序的开头</span></span><br><span class="line">	<span class="comment">#   - 在每一个模块内部都有一个__name__属性，通过这个属性可以获取到模块的名字</span></span><br><span class="line">	<span class="comment">#   - __name__属性值为 __main__的模块是主模块，一个程序中只会有一个主模块</span></span><br><span class="line">	<span class="comment">#       主模块就是我们直接通过 python 执行的模块</span></span><br><span class="line">	<span class="keyword">import</span> test_module <span class="keyword">as</span> test</span><br><span class="line">	<span class="comment"># print(test.__name__)</span></span><br><span class="line">	print(__name__)</span><br><span class="line"></span><br><span class="line">模块的创建</span><br><span class="line">	<span class="comment"># import m</span></span><br><span class="line">	<span class="comment"># # 访问模块中的变量：模块名.变量名</span></span><br><span class="line">	<span class="comment"># # print(m.a , m.b)</span></span><br><span class="line">	<span class="comment"># # m.test2()</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># 也可以只引入模块中的部分内容</span></span><br><span class="line">	<span class="comment"># 语法 from 模块名 import 变量,变量....</span></span><br><span class="line">	<span class="comment"># from m import Person</span></span><br><span class="line">	<span class="comment">#唯一区别就是：使用from。。import... 则是将spam 中的名字直接导入到当前的名称空间中， 所有在当前名称空间中， 直接使用名字就可以了， 无需加前缀 模块名</span></span><br><span class="line">	<span class="comment"># # from m import Person,test</span></span><br><span class="line">	<span class="comment"># # p1 = Person()</span></span><br><span class="line">	<span class="comment"># # test()</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># 也可以为引入的变量使用别名</span></span><br><span class="line">	<span class="comment"># 语法：from 模块名 import 变量 as 别名</span></span><br><span class="line">	<span class="comment"># from m import test2 as new_test2</span></span><br><span class="line">	<span class="comment"># test2()</span></span><br><span class="line">	<span class="comment"># new_test2()</span></span><br><span class="line"></span><br><span class="line">包 Package</span><br><span class="line">	<span class="comment"># 包 Package</span></span><br><span class="line">	<span class="comment"># 包也是一个模块</span></span><br><span class="line">	<span class="comment"># 当我们模块中代码过多时，或者一个模块需要被分解为多个模块时，这时就需要使用到包</span></span><br><span class="line">	<span class="comment"># 普通的模块就是一个py文件，而包是一个文件夹</span></span><br><span class="line">	<span class="comment">#   包中必须要一个一个 __init__.py 这个文件，这个文件中可以包含有包中的主要内容</span></span><br><span class="line">	<span class="keyword">from</span> hello <span class="keyword">import</span> a , b</span><br><span class="line">	print(a.c)</span><br><span class="line">	print(b.d)</span><br><span class="line"></span><br><span class="line">	<span class="comment"># __pycache__ 是模块的缓存文件</span></span><br><span class="line">	<span class="comment"># py代码在执行前，需要被解析器先转换为机器码，然后再执行</span></span><br><span class="line">	<span class="comment">#   所以我们在使用模块（包）时，也需要将模块的代码先转换为机器码然后再交由计算机执行</span></span><br><span class="line">	<span class="comment">#   而为了提高程序运行的性能，python会在编译过一次以后，将代码保存到一个缓存文件中</span></span><br><span class="line">	<span class="comment">#   这样在下次加载这个模块（包）时，就可以不再重新编译而是直接加载缓存中编译好的代码即可</span></span><br><span class="line"></span><br><span class="line">Python标准库</span><br><span class="line">	<span class="comment"># 开箱即用</span></span><br><span class="line">	<span class="comment"># 为了实现开箱即用的思想，Python中为我们提供了一个模块的标准库</span></span><br><span class="line">	<span class="comment"># 在这个标准库中，有很多很强大的模块我们可以直接使用，</span></span><br><span class="line">	<span class="comment">#   并且标准库会随Python的安装一同安装</span></span><br><span class="line">	<span class="comment"># sys模块，它里面提供了一些变量和函数，使我们可以获取到Python解析器的信息</span></span><br><span class="line">	<span class="comment">#   或者通过函数来操作Python解析器</span></span><br><span class="line">	<span class="comment"># 引入sys模块</span></span><br><span class="line">	<span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">	<span class="comment"># pprint 模块它给我们提供了一个方法 pprint() 该方法可以用来对打印的数据做简单的格式化</span></span><br><span class="line">	<span class="keyword">import</span> pprint</span><br><span class="line"></span><br><span class="line">	<span class="comment"># sys.argv</span></span><br><span class="line">	<span class="comment"># 获取执行代码时，命令行中所包含的参数</span></span><br><span class="line">	<span class="comment"># 该属性是一个列表，列表中保存了当前命令的所有参数</span></span><br><span class="line">	<span class="comment"># print(sys.argv)</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># sys.modules</span></span><br><span class="line">	<span class="comment"># 获取当前程序中引入的所有模块</span></span><br><span class="line">	<span class="comment"># modules是一个字典，字典的key是模块的名字，字典的value是模块对象</span></span><br><span class="line">	<span class="comment"># pprint.pprint(sys.modules)</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># sys.path</span></span><br><span class="line">	<span class="comment"># 他是一个列表，列表中保存的是模块的搜索路径</span></span><br><span class="line">	<span class="comment"># pprint.pprint(sys.path)</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># sys.platform</span></span><br><span class="line">	<span class="comment"># 表示当前Python运行的平台</span></span><br><span class="line">	<span class="comment"># print(sys.platform)</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># sys.exit()</span></span><br><span class="line">	<span class="comment"># 函数用来退出程序</span></span><br><span class="line">	<span class="comment"># sys.exit('程序出现异常，结束！')</span></span><br><span class="line">	<span class="comment"># print('hello')</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># os 模块让我们可以对操作系统进行访问</span></span><br><span class="line">	<span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line">	<span class="comment"># os.environ</span></span><br><span class="line">	<span class="comment"># 通过这个属性可以获取到系统的环境变量</span></span><br><span class="line">	<span class="comment"># pprint.pprint(os.environ['path'])</span></span><br><span class="line"></span><br><span class="line">	<span class="comment"># os.system()</span></span><br><span class="line">	<span class="comment"># 可以用来执行操作系统的名字</span></span><br><span class="line">	<span class="comment"># os.system('dir')</span></span><br><span class="line">	os.system(<span class="string">'notepad'</span>)</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/weixin.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/正则/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:47:49.893Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/26/模块和包/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/运算符/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:47:10.265Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/模块和包/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:46:32.912Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+<nav id="article-nav">
+  
+    <a href="/2019/11/26/运算符/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/11/26/异常/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/异常/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:45:47.753Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/文件/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:45:12.391Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+        
+        
+    </div>
+</aside>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/网络/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:44:33.076Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类的多态/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:43:57.437Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类的继承/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:43:22.814Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类的封装/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:41:26.595Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:40:38.832Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
   
-    </div></section>
   
 
-    
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/archives/2019/page/2/">2</a><a class="extend next" rel="next" href="/archives/2019/page/2/">Next &raquo;</a>
-    </nav>
+  
+
+  
+
   
 
 
@@ -392,8 +321,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,

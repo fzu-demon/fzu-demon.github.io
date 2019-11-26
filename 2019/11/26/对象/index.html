@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019 | 烂人笔记</title>
+  <title>烂人笔记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576对象	- Python是一门面向对象的语言	- 一切皆对象！	- 程序运行当中，所有的数据都是存储到内存当中然后再">
+<meta property="og:type" content="article">
 <meta property="og:title" content="烂人笔记">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/11/26/对象/index.html">
 <meta property="og:site_name" content="烂人笔记">
+<meta property="og:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576对象	- Python是一门面向对象的语言	- 一切皆对象！	- 程序运行当中，所有的数据都是存储到内存当中然后再">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-11-26T15:40:04.810Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="烂人笔记">
+<meta name="twitter:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576对象	- Python是一门面向对象的语言	- 一切皆对象！	- 程序运行当中，所有的数据都是存储到内存当中然后再">
   
     <link rel="alternative" href="/atom.xml" title="烂人笔记" type="application/atom+xml">
   
@@ -140,235 +144,160 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-对象" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line">对象</span><br><span class="line">	- Python是一门面向对象的语言</span><br><span class="line">	- 一切皆对象！</span><br><span class="line">	- 程序运行当中，所有的数据都是存储到内存当中然后再运行的！</span><br><span class="line">	- 对象就是内存中专门用来存储指定数据的一块区域</span><br><span class="line">	- 对象实际上就是一个容器，专门用来存储数据</span><br><span class="line">	- 像我们之前学习的数值、字符串、布尔值、<span class="literal">None</span>都是对象</span><br><span class="line"></span><br><span class="line">对象的结构</span><br><span class="line">	- 每个对象中都要保存三种数据</span><br><span class="line">    - id（标识）</span><br><span class="line">        &gt; id用来标识对象的唯一性，每一个对象都有唯一的id</span><br><span class="line">        &gt; 对象的id就相当于人的身份证号一样</span><br><span class="line">        &gt; 可以通过id()函数来查看对象的id</span><br><span class="line">        &gt; id是由解析器生成的，在CPython中，id就是对象的内存地址</span><br><span class="line">        &gt; 对象一旦创建，则它的id永远不能再改变</span><br><span class="line"></span><br><span class="line">    - type（类型）</span><br><span class="line">        &gt; 类型用来标识当前对象所属的类型</span><br><span class="line">        &gt; 比如：int str float bool 。。。</span><br><span class="line">        &gt; 类型决定了对象有哪些功能</span><br><span class="line">        &gt; 通过type()函数来查看对象的类型</span><br><span class="line">        &gt; Python是一门强类型的语言，对象一旦创建类型便不能修改</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    - value（值）</span><br><span class="line">        &gt; 值就是对象中存储的具体的数据</span><br><span class="line">        &gt; 对于有些对象值是可以改变的</span><br><span class="line">        &gt; 对象分成两大类，可变对象 不可变对象</span><br><span class="line">            可变对象的值可以改变</span><br><span class="line">            不可变对象的值不能改变，之前学习的对象都是不可变对象</span><br><span class="line"></span><br><span class="line">变量和对象</span><br><span class="line">	-对象并没有直接存储到变量中，在Python中变量更像是给对象起了一个别名</span><br><span class="line">	-变量中存储的不是对象的值，而是对象的id（内存地址），</span><br><span class="line">    	当我们使用变量时，实际上就是在通过对象id在查找对象</span><br><span class="line">	-变量中保存的对象，只有在为变量重新赋值时才会改变</span><br><span class="line">	-变量和变量之间是相互独立的，修改一个变量不会影响另一个变量</span><br><span class="line"></span><br><span class="line">类型转换</span><br><span class="line">	- 所谓的类型转换，将一个类型的对象转换为其他对象</span><br><span class="line">	- 类型转换不是改变对象本身的类型，而是根据当前对象的值创建一个新对象</span><br><span class="line"></span><br><span class="line">	<span class="comment"># 类型转换四个函数 int() float() str() bool()</span></span><br><span class="line">	int() 可以用来将其他的对象转换为整型</span><br><span class="line">	<span class="comment"># 规则：</span></span><br><span class="line">	<span class="comment">#   布尔值：True -&gt; 1   False -&gt; 0</span></span><br><span class="line">	<span class="comment">#   浮点数：直接取整，省略小数点后的内容</span></span><br><span class="line">	<span class="comment">#   字符串：合法的整数字符串，直接转换为对应的数字</span></span><br><span class="line">	<span class="comment">#           如果不是一个合法的整数字符串，则报错 ValueError: invalid literal for int() with base 10: '11.5'</span></span><br><span class="line">	<span class="comment">#   对于其他不可转换为整型的对象，直接抛出异常 ValueError</span></span><br><span class="line">	float() 和 int()基本一致，不同的是它会将对象转换为浮点数</span><br><span class="line">	str() 可以将对象转换为字符串</span><br><span class="line">	bool() 可以将对象转换为布尔值，任何对象都可以转换为布尔值</span><br><span class="line">		规则：对于所有表示空性的对象都会转换为<span class="literal">False</span>，其余的转换为<span class="literal">True</span></span><br><span class="line"></span><br><span class="line">可变对象</span><br><span class="line">	- 每个对象中都保存了三个数据：</span><br><span class="line">	    id（标识）</span><br><span class="line">	    type（类型）</span><br><span class="line">	    value（值）    </span><br><span class="line"></span><br><span class="line">	- 列表就是一个可变对象</span><br><span class="line">	    a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"></span><br><span class="line">	- a[<span class="number">0</span>] = <span class="number">10</span> （改对象）</span><br><span class="line">	    - 这个操作是在通过变量去修改对象的值</span><br><span class="line">	    - 这种操作不会改变变量所指向的对象    </span><br><span class="line">	    - 当我们去修改对象时，如果有其他变量也指向了该对象，则修改也会在其他的变量中体现</span><br><span class="line"></span><br><span class="line">	- a = [<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>] （改变量）</span><br><span class="line">	    - 这个操作是在给变量重新赋值</span><br><span class="line">	    - 这种操作会改变变量所指向的对象</span><br><span class="line">	    - 为一个变量重新赋值时，不会影响其他的变量</span><br><span class="line"></span><br><span class="line">	- 一般只有在为变量赋值时才是修改变量，其余的都是修改对象</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/weixin.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/正则/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:47:49.893Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/26/对象/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/运算符/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:47:10.265Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/模块和包/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:46:32.912Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+<nav id="article-nav">
+  
+    <a href="/2019/11/26/类/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/11/26/函数/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/异常/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:45:47.753Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/文件/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:45:12.391Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+        
+        
+    </div>
+</aside>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/网络/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:44:33.076Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类的多态/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:43:57.437Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类的继承/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:43:22.814Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类的封装/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:41:26.595Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/26/类/" class="archive-article-date">
-  	<time datetime="2019-11-26T15:40:38.832Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-26</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
   
-    </div></section>
   
 
-    
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/archives/2019/page/2/">2</a><a class="extend next" rel="next" href="/archives/2019/page/2/">Next &raquo;</a>
-    </nav>
+  
+
+  
+
   
 
 
@@ -392,8 +321,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
